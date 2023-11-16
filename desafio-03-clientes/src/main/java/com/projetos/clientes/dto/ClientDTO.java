@@ -12,9 +12,12 @@ import java.time.LocalDate;
 public class ClientDTO {
 
     private Long id;
+    @NotBlank(message = "Campo requerido")
     private String name;
     private String cpf;
     private Double income;
+
+    @PastOrPresent(message = "Aniversário não pode ser uma data futura")
     private LocalDate birthDate;
     private Integer children;
 

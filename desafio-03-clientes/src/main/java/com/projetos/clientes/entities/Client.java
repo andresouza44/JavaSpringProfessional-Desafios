@@ -14,13 +14,9 @@ public class Client {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
-    @NotBlank(message = "Campo requerido")
     private String name;
     private String cpf;
     private Double income;
-
-    @PastOrPresent(message = "Aniversário não pode sr uma data futura")
     private LocalDate birthDate;
     private Integer children;
 
