@@ -5,6 +5,7 @@
 [01 - Order]()<br>
 [02 - Eventos]()<br>
 [03 - Clientes]()<br>
+[04 - Consulta Vendas]()<br>
 
 
 
